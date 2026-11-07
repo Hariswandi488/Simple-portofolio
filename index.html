@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Haris – student, learning to build software</title>
-<meta name="description" content="Haris is a student exploring software development, game development, and electronics. Projects, skills, and what he is learning.">
+<title>Hariswandi Maulana – student, learning to build software</title>
+<meta name="description" content="Hariswandi Maulana (Haris) is a student exploring software development, game development, and technology. Projects, skills, and what he is learning.">
 <meta name="theme-color" content="#101114">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23101114'/%3E%3Cpath d='M9 7v18M23 7v18M9 16h14' stroke='%23A3B5FF' stroke-width='3'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,12 +30,16 @@
 <main id="main">
 <section class="hero" id="top">
   <p class="now mono"><span class="dot" aria-hidden="true"></span>Right now: building Project Breakpoint, a 3D game in Godot</p>
-  <h1 aria-label="Haris"><span class="word" aria-hidden="true"><span>H</span><span>a</span><span>r</span><span>i</span><span>s</span></span></h1>
   <div class="hero-text">
     <p class="lede">Hi, I’m Haris.</p>
     <p>A student exploring software development, game development, and technology.</p>
     <p>Currently learning, experimenting, and building things.</p>
   </div>
+  <figure class="portrait">
+    <img src="assets/profile.jpg" alt="Illustrated portrait used as Haris’s profile picture" width="570" height="587">
+    <figcaption class="mono">@Hariswandi488</figcaption>
+  </figure>
+  <h1 aria-label="Hariswandi Maulana"><span class="word"><span aria-hidden="true">Hariswandi</span></span><span class="word"><span aria-hidden="true">Maulana</span></span></h1>
 </section>
 
 <section class="about" id="about">
@@ -50,7 +54,7 @@
 <section class="projects" id="projects">
   <h2>Projects</h2>
   <ul class="plist">
-    <li class="project open">
+    <li class="project open wide">
       <button class="p-head" aria-expanded="true" aria-controls="p1">
         <span class="p-name">LifeHub</span>
         <span class="p-tech mono">Python, Flask</span>
@@ -58,10 +62,14 @@
       </button>
       <div class="p-body" id="p1"><div class="p-inner">
         <div class="p-text">
-          <p>A personal productivity and management app with task management and financial tracking, designed to be practical and friendly to use offline.</p>
+          <p>A personal productivity and management app. It has a home dashboard, a todo list with recurring tasks, and a finance tracker with separate wallets, savings goals, and income and expense summaries by day, week, or month.</p>
+          <p>Built to be practical and friendly to use offline.</p>
           <p class="mono muted">GitHub: repo link not added yet</p>
         </div>
-        <figure class="shot"><span class="mono">Screenshot not added yet<br>assets/lifehub.png</span><img src="assets/lifehub.png" alt="LifeHub screenshot" loading="lazy" onerror="this.remove()"></figure>
+        <div class="shots">
+          <figure><img src="assets/lifehub-home.jpg" alt="LifeHub home dashboard showing balance, monthly summary, and today’s tasks" loading="lazy"><figcaption class="mono">Home</figcaption></figure>
+          <figure><img src="assets/lifehub-finance.jpg" alt="LifeHub finance page with wallets and savings goal" loading="lazy"><figcaption class="mono">Finance</figcaption></figure>
+        </div>
       </div></div>
     </li>
     <li class="project">
@@ -76,20 +84,6 @@
           <p class="mono muted">GitHub: repo link not added yet</p>
         </div>
         <figure class="shot"><span class="mono">Screenshot not added yet<br>assets/breakpoint.png</span><img src="assets/breakpoint.png" alt="Project Breakpoint screenshot" loading="lazy" onerror="this.remove()"></figure>
-      </div></div>
-    </li>
-    <li class="project">
-      <button class="p-head" aria-expanded="false" aria-controls="p3">
-        <span class="p-name">Arduino Mini Parking System</span>
-        <span class="p-tech mono">Arduino, C++</span>
-        <span class="p-status mono">Learning project</span>
-      </button>
-      <div class="p-body" id="p3"><div class="p-inner">
-        <div class="p-text">
-          <p>An electronics project built from an Arduino, an ultrasonic distance sensor, LEDs, and a buzzer. I made it to understand basic electronics and how code controls hardware.</p>
-          <p class="mono muted">GitHub: repo link not added yet</p>
-        </div>
-        <figure class="shot"><span class="mono">Photo not added yet<br>assets/parking.png</span><img src="assets/parking.png" alt="Arduino Mini Parking System" loading="lazy" onerror="this.remove()"></figure>
       </div></div>
     </li>
   </ul>
@@ -129,7 +123,7 @@
 </section>
 </main>
 
-<footer class="foot mono"><span>Haris, <span id="yr"></span></span><a href="#top">Back to top</a></footer>
+<footer class="foot mono"><span>Hariswandi Maulana, <span id="yr"></span></span><a href="#top">Back to top</a></footer>
 <script src="script.js"></script>
 </body>
 </html>
