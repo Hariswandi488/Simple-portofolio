@@ -13,15 +13,8 @@
   var items = document.querySelectorAll('.project');
   items.forEach(function (item) {
     item.querySelector('.p-head').addEventListener('click', function () {
-      var willOpen = !item.classList.contains('open');
-      items.forEach(function (o) {
-        o.classList.remove('open');
-        o.querySelector('.p-head').setAttribute('aria-expanded', 'false');
-      });
-      if (willOpen) {
-        item.classList.add('open');
-        this.setAttribute('aria-expanded', 'true');
-      }
+      var open = item.classList.toggle('open');
+      this.setAttribute('aria-expanded', open);
     });
   });
 
